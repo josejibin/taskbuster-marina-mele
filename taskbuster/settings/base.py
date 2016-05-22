@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from os.path import normpath, join
 
 from django.core.exceptions import ImproperlyConfigured
 
@@ -108,6 +109,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
+
+# https://docs.djangoproject.com/en/dev/ref/settings/#static-root
+STATIC_ROOT = normpath(join(BASE_DIR, 'static'))
 
 STATIC_URL = '/static/'
 
