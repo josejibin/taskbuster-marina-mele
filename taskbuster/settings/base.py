@@ -111,7 +111,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#static-root
-STATIC_ROOT = normpath(join(BASE_DIR, 'static'))
+STATIC_ROOT = normpath(join(BASE_DIR, 'static_root'))
 
 STATIC_URL = '/static/'
 
