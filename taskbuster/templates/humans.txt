@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jibin Jose -- Developer -- @_josejibin
 
 # THANKS
 
-    <name>
+    Thanks to Marina Mele for awesome taskbuster tutorial
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    Django
+    HTML5 Boilerplate
+    Twitter Bootstrap
